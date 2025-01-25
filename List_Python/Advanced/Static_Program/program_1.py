@@ -69,5 +69,3 @@ random.shuffle(list3, random=myfunction)
 
 print(list3)
 
-
-
