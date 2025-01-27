@@ -68,4 +68,3 @@ list3 = ["a", "b", "c", "d", "e", "f"]
 random.shuffle(list3, random=myfunction)
 
 print(list3)
-

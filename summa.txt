@@ -1,5 +1,35 @@
-list1 = list(map(int, input("Enter the frist list:").split()))
-
-7 4 9 9 8 2
-
-7 5 4 2 4 5
+Beginner Level
+1.	Write a loop to print numbers from 1 to 10.
+2.	Write a loop to print "Hello, World!" 5 times.
+3.	Use a loop to print the square of each number from 1 to 5.
+4.	Write a loop to calculate the sum of numbers from 1 to 10.
+5.	Use a loop to iterate through an array [2, 4, 6, 8] and print each number.
+6.	Write a loop to iterate through the characters of the string "Python" and print each character.
+7.	Write a loop to find the factorial of a number (e.g., 5).
+8.	Use a loop to print all even numbers from 2 to 20.
+9.	Write a loop to iterate through a list of fruits ["Apple", "Banana", "Cherry"] and print each fruit.
+10.	Write a loop to count down from 10 to 1.
+________________________________________
+Intermediate Level
+1.	Write a loop to calculate the sum of all numbers from 1 to 100.
+2.	Write a loop to reverse a given number (e.g., 12345 → 54321).
+3.	Use a loop to iterate through a dictionary { "a": 1, "b": 2, "c": 3 } and print keys and values.
+4.	Write a loop to print the multiplication table for a given number (e.g., 5).
+5.	Use a loop to find the first 10 numbers in the Fibonacci sequence.
+6.	Write a loop to count the occurrences of a specific character in a string (e.g., count "a" in "banana").
+7.	Use a loop to find the sum of all elements in an array [10, 20, 30, 40].
+8.	Write a loop to check if a number is a palindrome (e.g., 121).
+9.	Use a loop to print all prime numbers between 1 and 50.
+10.	Write a loop to iterate through a 2D list (matrix) and print each element.
+________________________________________
+Advanced Level
+1.	Write a loop to find the GCD (Greatest Common Divisor) of two numbers.
+2.	Write a loop to simulate a basic number guessing game with unlimited tries.
+3.	Use a loop to iterate through a nested dictionary and print all keys and values  	(e.g., { "info": { "name": "John", "age": 25 } }).
+4.	Write a loop to implement the bubble sort algorithm on a list of integers.
+5.	Use a loop to check if a string is an anagram of another string.
+6.	Write a loop to flatten a 2D list into a 1D list (e.g., [[1, 2], [3, 4]] → [1, 2, 3, 4]).
+7.	Use a loop to generate Pascal's triangle up to a given number of rows.
+8.	Write a loop to calculate the power of a number without using the ** operator 	(e.g., 2^3 = 8).
+9.	Use a loop to filter and print only strings longer than 5 characters from a list.
+10.	Write a loop to transpose a matrix (swap rows and columns in a 2D list).
