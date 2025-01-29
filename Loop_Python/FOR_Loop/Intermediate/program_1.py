@@ -46,12 +46,13 @@ print("Fibonacci sequence:" ,fibonacci_sequence)
 
 words = "banana"
 count = 0
+finding_letter = 'a'
 
 for char in words:
-    if char == 'a':
+    if char == finding_letter:
         count += 1
 
-print(f"Count of 'a' in '{words}':", count)
+print(f"Count of {finding_letter} in '{words}':", count)
 
 #   7.	Use a loop to find the sum of all elements in an array [10, 20, 30, 40].
 
@@ -79,4 +80,36 @@ if number == reversed_number:
     print(f"{number} is a palindrome.")
 else:
     print(f"{number} is not a palindrome.")
+
+#   9.	Use a loop to print all prime numbers between 1 and 50.
+
+number = 50
+prime_number = []
+
+for num in range(2, number+1):
+    is_prime = True
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            is_prime = False
+            break
+    
+    if is_prime:
+        prime_number.append(num)
+    else:
+        continue
+
+print("Prime numbers between 1 and 50:", prime_number)
+
+#   10.	Write a loop to iterate through a 2D list (matrix) and print each element.
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for row in matrix:
+    for num in row:
+        print(num, end=" ")
+    print()
 
